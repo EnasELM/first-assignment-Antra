@@ -1,4 +1,18 @@
-nav {
+.nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.nav__subscribe {
+    color: lightgray;
+    font-size: small;
+}
+
+.nav__blogTitle {
+    color: black;
+    padding-left: 0%;
+    margin-left: 0%;
+    width: 20%
 }
