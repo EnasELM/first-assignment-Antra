@@ -47,3 +47,78 @@ time {
     margin: 0%;
     padding: 0%;
 }
+
+.card__container--about {
+    border: 0px !important;
+    box-shadow: none !important;
+}
+
+.card__container--about a {
+    padding: 1%;
+}
+
+.div--card__container--about {
+    background-color: rgb(247, 244, 244);
+}
+
+.card__list--left {
+    width: 90%;
+    margin: 0;
+}
+
+.card__list--right {
+    width: 40%;
+    margin: 0;
+}
+
+.card__container--about h3 {
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-top: 7%;
+    margin-bottom: 0%;
+}
+
+.pargraph__underline::after {
+    content: '';
+    display: block;
+    width: 100%;
+    top: 10px;
+    padding-top: 2%;
+    bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.pargraph__withborder,
+.span__withborder {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.span__withborder {
+    font-size: small;
+    font-weight: 500;
+    padding-bottom: 0%;
+}
+
+.section__button {
+    padding-top: 3%;
+}
+
+button {
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 0.5%;
+    border: 1px solid lightgrey;
+}
+
+.button__olderpost {
+    border: 1px solid rgb(57, 148, 204);
+    color: rgb(57, 148, 204);
+}
+
+.button__newerpost {
+    border: 1px solid lightgray;
+    color: lightgray;
+}
